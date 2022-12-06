@@ -55,14 +55,14 @@ if (possibilityUno < '50') {
   Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima se le spedizioni sono gratuite oppure no e e calcolando il totale.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* SCRIVI QUI LA TUA RISPOSTA booooooooo*/
 
 /* ESERCIZIO 7
   Crea tre variabili, e assegna un valore numerico a ciascuna di esse.
   Utilizzando un blocco condizionale, crea un algoritmo per ordinarle secondo il loro valore, dal più alto al più basso.
   Alla fine mostra il risultato in console.
 */
-
+/*
 
 /*let numeri = [4, 1, 6,];
 
@@ -84,7 +84,7 @@ console.log(numeri);
     else {
         return null;
     }
-}
+}booooooooo
 
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
@@ -119,7 +119,7 @@ console.log(isDisparo(8));
     } else {
       console.log("Uguale a 10 o maggiore");
     }
-*/
+booooo*/
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
@@ -159,7 +159,7 @@ console.log(me)
   Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
 */
 
-let arrVuoto = []
+/*let arrVuoto = []
 arrVuoto = arrVuoto.push(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 
 console.log(arrVuoto)
@@ -168,4 +168,4 @@ console.log(arrVuoto)
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
 
-arrVuoto.splice(9, 100)
+/*arrVuoto.splice(9, 100)
