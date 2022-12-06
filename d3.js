@@ -2,7 +2,7 @@
  Scrivi un algoritmo per trovare il più grande tra due numeri interi.
 */
 
-let nome = 10
+/*let nome = 10
 let cognome = 11
 
 if (nome > cognome) {
@@ -15,19 +15,26 @@ if (nome > cognome) {
   Scrivi un algoritmo che mostri "not equal" in console se un numero intero fornito è diverso da 5.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/*const numero = 6
+if (numero != 5)
+    console.log('not equal')
 
 /* ESERCIZIO 3
   Scrivi un algoritmo che mostri "divisibile per 5" in console se un numero fornito è perfettamente divisibile per 5 (suggerimento: cerca l'operatore modulo su un motore di ricerca)
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/*const numero = 40 % 5
+if (numero == 0)
+    console.log('divisibile per 5')
 
 /* ESERCIZIO 4
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/*let numeroUno = 8
+let numeroDue = 0
+if (numeroUno + numeroDue == 8)
+    console.log('vero')
 
 /* ESERCIZIO 5
   Stai lavorando su un sito di e-commerce. Stai salvando il saldo totale del carrello dell'utente in una variabile "totalShoppingCart".
@@ -35,7 +42,13 @@ if (nome > cognome) {
   Crea un algoritmo che determini l'ammontare totale che deve essere addebitato all'utente per il checkout.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/*let totalShoppingCart = {
+    possibilityUno: '49'
+    possibilityTre: '51'
+}
+if (possibilityUno < '50') {
+    console.log("ti tocca pagare 10 euro di spedizione")
+}
 
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
@@ -50,19 +63,51 @@ if (nome > cognome) {
   Alla fine mostra il risultato in console.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+
+/*let numeri = [4, 1, 6,];
+
+numeri.sort(function (a, b) {
+    return a - b;
+});
+console.log(numeri);
+
+
 
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/*function IsNotUneven(numero) {
+    if (isNaN(numero) == false) {
+        return (numero % 2 == 1 ? true : false);
+    }
+    else {
+        return null;
+    }
+}
 
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/*function isDisparo(num) {
+    let risultato = num % 2;
+    if (risultato == 0) {
+        return false;
+    } else if (risultato == 1) {
+        return true;
+    } else {
+        alert("Non è un numero intero");
+        return "";
+    }
+}
+
+console.log(isDisparo(5));
+// true = disparo
+
+
+console.log(isDisparo(8));
+// false = paro
 
 /* ESERCIZIO 10
   Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
@@ -85,9 +130,10 @@ if (nome > cognome) {
 /*const me = {
     name: 'John',
     lastName: 'Doe',
-    city: 'Toronto'
     skills: ['javascript', 'html', 'css'],
 }
+me.push(city: 'Toronto')
+
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
@@ -95,13 +141,19 @@ if (nome > cognome) {
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere la proprietà "lastName".
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/*const me = {
+    name: 'John',
+    lastName: 'Doe',
+    skills: ['javascript', 'html', 'css'],
+}
+delete me.lastName
+console.log(me)
 
 /* ESERCIZIO 13
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere l'ultimo elemento della proprietà "skills".
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+
 
 /* ESERCIZIO 14
   Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
