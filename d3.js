@@ -77,14 +77,13 @@ console.log(numeri);
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
 
-/*function IsNotUneven(numero) {
-    if (isNaN(numero) == false) {
-        return (numero % 2 == 1 ? true : false);
-    }
-    else {
-        return null;
-    }
-}booooooooo
+/*const numero = 4
+if (typeof numero === 'number') {
+    console.log('è un numero')
+}
+else {
+    console.log('non è un numero')
+}
 
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
@@ -132,8 +131,9 @@ booooo*/
     lastName: 'Doe',
     skills: ['javascript', 'html', 'css'],
 }
-me.push(city: 'Toronto')
-
+//me.push(city, 'Toronto')
+me.city = 'toronto'
+console.log(me)
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
@@ -153,6 +153,8 @@ console.log(me)
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere l'ultimo elemento della proprietà "skills".
 */
 
+/*delete menubar.skills[2]
+console.log(me)
 
 
 /* ESERCIZIO 14
@@ -168,4 +170,4 @@ console.log(arrVuoto)
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
 
-/*arrVuoto.splice(9, 100)
+//arrVuoto.splice(9, 1, 100)*/
